@@ -197,28 +197,6 @@ nav .search-icon{
     display: block;
   }
 }
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.content header{
-  font-size: 30px;
-  font-weight: 700;
-}
-.content .text{
-  font-size: 30px;
-  font-weight: 700;
-}
-.space{
-  margin: 10px 0;
-}
-nav .logo.space{
-  color: red;
-  padding: 0 5px 0 0;
-}
 @media (max-width: 980px){
   nav .menu-icon,
   nav .cancel-icon,
@@ -236,21 +214,3 @@ nav .logo.space{
     margin: 0 10px;
     font-size: 16px;
   }
-}
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.content header{
-  font-size: 30px;
-  font-weight: 700;
-}
-.content .text{
-  font-size: 30px;
-  font-weight: 700;
-}
-.content .space{
-  margin: 10px 0;
-}
