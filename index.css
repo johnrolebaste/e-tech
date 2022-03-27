@@ -6,27 +6,48 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-.pic{
-	
-}
-.members-pic{
-	width: 200px;
-}
-#members{
-	position: absolute;
-	margin-top: 150px;
-	left: 0; 
-  	right: 0; 
-  	margin-left: auto; 
-  	margin-right: auto; 
-}
+
 .image{
 	background: transparent;
 	transform: rotate(270deg) scale(1.5);
+  margin-bottom: 50px;
 }
 body{
   background: #f2f2f2;
   background-image: url(./images/background.png);
+  text-align: center;
+}
+
+section {
+  margin: 0 100px;
+}
+
+.blog, .purpose {
+  margin-top: 50px;
+}
+
+.blog-content, #purpose {
+  text-align: justify;
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-radius: 12px;
+}
+
+.members {
+  margin-top: 50px;
+}
+
+footer  {
+  color: white;
+  background: black;
+  display: inline-block;
+  font-size: 12px;
+ width: 100%;
+ margin-top: 50px;
 }
 nav{
   background: #171c24;
