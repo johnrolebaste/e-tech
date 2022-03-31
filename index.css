@@ -11,6 +11,19 @@
 	background: transparent;
 	transform: rotate(270deg) scale(1.5);
   margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.product-image {
+  width: 300px !important;
+  height: 300px;
+  border: solid;
+}
+
+nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 body{
   background: #f2f2f2;
@@ -235,3 +248,4 @@ nav .search-icon{
     margin: 0 10px;
     font-size: 16px;
   }
+
